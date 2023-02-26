@@ -6,24 +6,24 @@ box-sizing: border-box;
 font-family: 'Phudu', cursive;
 }
 
-  /*Убрать полосу прокрутки для всей страницы*/
-  ::-webkit-scrollbar {
-    width: 0;
-  }
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+width: 0;
+}
 body{
 background-color: #ffe135;
-    
+
 }
 header{
 width: 100%;
 height: 100px;
-background-color: #ffe135;  
+background-color: #ffe135;
 }
 nav{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: center;
 }
 ul{
 width: 40%;
@@ -64,15 +64,15 @@ height: 100vh;
 }
 .home-fon{
 
-    background-image: url('/image/Yellow\ aesthetic\ wallpaper\ for\ laptop.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 85%;
-    height: 90vh;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 50px;
-    
+background-image: url('/image/Yellow\ aesthetic\ wallpaper\ for\ laptop.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 85%;
+height: 90vh;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius: 50px;
+
 }
 
 .home-text{
@@ -90,6 +90,7 @@ margin: 0 auto;
 display: flex;
 justify-content: center;
 width: 90%;
+
 }
 .portfolio-page{
 margin-top: 100px;
@@ -99,8 +100,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 border-radius: 30px;
 }
 .portfolio-fon{
-    width: 100%;
-    height: 450px;
+width: 100%;
+height: 450px;
 border-radius: 20px;
 background-image: url('/image/Yellow Background.jpeg');
 background-size: cover;
@@ -108,15 +109,86 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
-.my-inf  {
+.my-inf{
 width: 80%;
 padding: 50px 0;
 text-align: center;
 
 }
 .my-inf h2{
-    padding: 10px;  
-    border-radius:20px ;
-    backdrop-filter: blur(10px);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+padding: 10px;
+border-radius:20px ;
+backdrop-filter: blur(10px);
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.code-skill-inf{
+width: 100%;
+height: 40vh;
+padding: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 200px;
+}
+.about{
+  margin-top: 60px;
+font-size: 60px;
+text-align: center;
+}
+.code-skill{
+width:23% ;
+height: 330px;;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+border-radius:20px ;
+text-align: center;
+padding: 20px;
+background-image: url('/image/Premium\ Vector\ _\ Modern\ gradient\ yellow\ abstract\ memphis\ style\ with\ geometric\ background_.jpeg');
+}
+
+.code-skill h1{
+border-bottom: 1px dashed black;
+}
+
+
+
+footer{
+background-image: url('/image/Biblical\ Wallpaper.jpeg');
+background-position: center;
+width: 100%;
+height: 60vh;
+}
+
+.telegram {
+  cursor: pointer;
+display: flex;
+flex-direction: column;
+font-size: 40px;
+text-align: center;
+color: #1E90FF;
+}
+
+.instagram{
+  cursor: pointer;
+display: flex;
+flex-direction: column;
+font-size: 40px;
+text-align: center;
+background: -webkit-linear-gradient( rgba(179,0,178,1) 0%, rgba(255,0,0,1) 50%, rgba(255,239,0,1) 100% );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent 
+}
+
+.github {
+  cursor: pointer;
+display: flex;
+flex-direction: column;
+font-size: 40px;
+text-align: center;
+
+}
+a{
+  color: #fffbfb !important;
+  text-decoration: none
+
 }
