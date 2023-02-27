@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
+
+
 
 <body>
     <header>
@@ -22,15 +26,16 @@
                 <li><i class="fa-regular fa-user"></i> after-information</li>
                 <li><i class="fa-regular fa-star"></i> skill</li>
                 <li><i class="fa-regular fa-comment"></i> contact me</li>
+                
             </ul>
         </nav>
     </header>
     
-<section  class="home-page ">
+<section data-aos="zoom-in" class="home-page ">
 <div class="cont">
 <div class="home-fon">
 
-<h2 class="home-text">portfolio</h2>
+<h2 class="home-text" >portfolio</h2>
 <div class="axmad-div">
 <img src="/image/photo_2022-07-18_11-00-36.jpg" class="axmad-photo" alt="">
 
@@ -46,7 +51,7 @@
 
 
 <div class="cont">
-<section class="portfolio-page">
+<section data-aos="zoom-in" class="portfolio-page">
 <div class="portfolio-fon">
 <div class="cont">
 <div class="my-inf">
@@ -67,9 +72,9 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
     
 <section class="code-skill-inf">
 
-<div class="code-skill">
+<div class="code-skill" data-aos="fade-right">
     <h1>html</h1>
-<div class="code-text">
+<div class="code-text" >
     <h2>
         нужен для написания текста вставления фотографий и т.д
     </h2>
@@ -77,7 +82,7 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
 </div>
 
 
-<div class="code-skill">
+<div class="code-skill" data-aos="fade-up">
     <h1>css</h1>
 <div class="code-text">
     <h2>
@@ -87,7 +92,7 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
 </div>
 
 
-<div class="code-skill">
+<div class="code-skill" data-aos="fade-left">
     <h1>JavaScript</h1>
 <div class="code-text">
     <h2>
@@ -102,6 +107,8 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
 
 
 <footer>
+    <div class="footer">
+    <div class="connct">
 <div class="telegram">
 <i class="fa-brands fa-telegram"></i>
 <span>@islinc</span>
@@ -112,10 +119,16 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
     <span>@im.enotick</span>
     </div>
     <div class="github">
-       <a href="https://github.com/enotick-mag"> <i class="fa-brands fa-instagram"></i>
-        <span>@EnoickMag</span></a>
+        <i class="fa-brands fa-github"></i>
+        <span>@EnoickMag</span>
         </div>
+    </div>
+    <div class="marvell">
+    <img src="/image/Без названия.jpeg"  alt="">
+    </div>
+</div>
 </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
@@ -123,6 +136,9 @@ html, css, JavaScript. такими библиотеками как bootstrap, f
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
     <script src="/js/portfolio.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

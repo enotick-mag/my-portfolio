@@ -14,6 +14,20 @@ body{
 background-color: #ffe135;
 
 }
+.modal-footer{border: none;}
+.modal-header{ border: none;}
+.modal-content{
+background-image: url('/image/Pin\ by\ Sassi\ on\ Quick\ Saves\ _\ Iphone\ wallpaper\ kawaii\,\ Black\ and\ purple\ wallpaper\,\ Light\ purple\ wallpaper.jpeg');
+
+}
+.modal-footer button{
+color: black !important;
+background-color:  rgba(153,0,255,1);
+border: none;
+}
+.btn:hover{
+background-color: #ffe135;
+}
 header{
 width: 100%;
 height: 100px;
@@ -25,8 +39,19 @@ height: 80px;
 display: flex;
 justify-content: center;
 }
+.ul{
+width: 100%;
+height: 80px;
+text-align: center;
+list-style: none;
+align-items: center;
+display: flex;
+
+justify-content: center;
+}
+
 ul{
-width: 40%;
+width: 50%;
 height: 80px;
 display: flex;
 flex-direction: row;
@@ -138,7 +163,7 @@ text-align: center;
 }
 .code-skill{
 width:23% ;
-height: 330px;;
+height: 350px;;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 border-radius:20px ;
 text-align: center;
@@ -149,22 +174,38 @@ background-image: url('/image/Premium\ Vector\ _\ Modern\ gradient\ yellow\ abst
 .code-skill h1{
 border-bottom: 1px dashed black;
 }
+.code-text{
+  padding: 10px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.footer{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 
-
+}
 footer{
 background-image: url('/image/Biblical\ Wallpaper.jpeg');
 background-position: center;
 width: 100%;
 height: 60vh;
+display: flex;
+
+justify-content: center;
+padding: 100px;
 }
 
 .telegram {
   cursor: pointer;
 display: flex;
 flex-direction: column;
-font-size: 40px;
-text-align: center;
+font-size:30px;
+margin: 5px 50px;
 color: #1E90FF;
 }
 
@@ -172,8 +213,8 @@ color: #1E90FF;
   cursor: pointer;
 display: flex;
 flex-direction: column;
-font-size: 40px;
-text-align: center;
+font-size:30px;
+margin: 5px 50px;
 background: -webkit-linear-gradient( rgba(179,0,178,1) 0%, rgba(255,0,0,1) 50%, rgba(255,239,0,1) 100% );
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent 
@@ -183,12 +224,18 @@ background: -webkit-linear-gradient( rgba(179,0,178,1) 0%, rgba(255,0,0,1) 50%, 
   cursor: pointer;
 display: flex;
 flex-direction: column;
-font-size: 40px;
-text-align: center;
-
+font-size:30px;
+margin: 5px 50px;
+color: white;
 }
-a{
-  color: #fffbfb !important;
-  text-decoration: none
 
+.connct{
+  display: flex;
+  flex-direction: column;
+}
+
+.marvell img{
+width: 250px;
+opacity: 0.8;
+border-radius: 20px;
 }
