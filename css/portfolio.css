@@ -14,20 +14,7 @@ body{
 background-color: #ffe135;
 
 }
-.modal-footer{border: none;}
-.modal-header{ border: none;}
-.modal-content{
-background-image: url('/image/Pin\ by\ Sassi\ on\ Quick\ Saves\ _\ Iphone\ wallpaper\ kawaii\,\ Black\ and\ purple\ wallpaper\,\ Light\ purple\ wallpaper.jpeg');
 
-}
-.modal-footer button{
-color: black !important;
-background-color:  rgba(153,0,255,1);
-border: none;
-}
-.btn:hover{
-background-color: #ffe135;
-}
 header{
 width: 100%;
 height: 100px;
